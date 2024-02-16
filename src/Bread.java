@@ -16,7 +16,7 @@ public class Bread {
         this.sugar = 2.0;
         this.bakingPowder = 2.0;
         this.yeast = 2.0;
-        this.breadName = "VN sandwich";
+        this.breadName = "Making breads";
         this.state = "is not ready to bake";
         this.recipe = "5 steps";
     }
@@ -115,7 +115,7 @@ public class Bread {
     }
     // Get Ingredients methods
     public String getIngredients(){
-        return "All the main ingredients you need are: flour, water, salt, sugar, baking powder, and yeast";
+        return getFlour() + " cups of flour\n" + getWater() + " cups of water\n" + getSalt() + " tsps of salt\n" + getSugar() + " tsps of sugar\n" + getBakingPowder() + " tsps of baking powder\n" + getYeast() + " tsps of yeast\n";
     }
 
 
